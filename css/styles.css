@@ -1,8 +1,8 @@
 body{
-  background-color: blue;
+  background-color: rgb(242, 246, 19);
 }
 
 h2 {
-  background-color: lightgreen;
-  color: red;
+  background-color: #e1131398  ;
+  color: rgba(217, 255, 0, 0.76);
 }
