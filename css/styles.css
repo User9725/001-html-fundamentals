@@ -1,8 +1,147 @@
-body{
-  background-color: rgb(242, 246, 19);
+header {
+  background-color: white;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.sitenav-list{
+list-style: none;
+}
+.saytning-linki{
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+}
+.Main-button{
+ font-weight: bold;
+ font-size: 13px;
+ line-height: 15px;
+ letter-spacing: 0,5px;
+  text-decoration: none;
+  background-color: #ff7500;
+  color: white;
 }
 
-h2 {
-  background-color: #e1131398  ;
-  color: rgba(217, 255, 0, 0.76);
+.Pythonda{
+   background-color: #252420 ;
+   color: white;
+}
+
+.hero-content{
+width: 390px;
+}
+
+.orange-line{
+width: 80px;
+height: 3px;
+background-color: #ff7500;
+}
+
+.hero-heading{
+font-size: 40px;
+line-height: 1.2;
+letter-spacing: 0.5;
+}
+
+.hero-text{
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.5px;
+}
+
+.hero-image{
+  width: 510px;
+  height: 510px;
+}
+
+.Features-heading{
+  width: 440px;
+  font-size: 72px;
+  line-height: 120%;
+  letter-spacing: 0.5px;
+  color: #000000;
+
+}
+.Feature{
+  width: 340px;
+}
+.feature-icon{
+  width: 100px;
+  height: 100px;
+  background-color: rgba(255, 117, 0, 0.2);
+}
+
+.feature-title{
+font-size: 24px;
+  line-height: 120%;
+  letter-spacing: 0.5px;
+  color: #000000;
+}
+.feature-text{
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.5px;
+  color: #000000;
+}
+
+.Promo{
+  width: 1100px;
+  height: 419px;
+
+  background-color: #252428;
+  color: white;
+}
+
+.promo-content{
+  width: 440px;
+}
+.Promo-title{
+font-style: 40px;
+line-height: 48px;
+}
+
+.Promo-text{
+font-style: 16px;
+line-height: 1.5;
+}
+
+.promo-highlight{
+color: #ff7500;
+}
+.promo-image{
+width: 440px;
+height: 440px;
+object-fit: cover;
+}
+.site-footer{
+  width: 1440;
+background-color: #f8f8f8;
+}
+.site-footer ul{
+list-style: none;
+}
+
+.site-footer-divider{
+  height: 2px;
+background-color: rgba(37, 36, 32, 0.5);
+}
+.site-footer-link-list{
+width: 224px;
+}
+.site-footer-link-list a {
+  font-size: 16px;
+  line-height: 19px;
+  color: #252420;
+  text-decoration: none;
+}
+
+body{
+  background-color: white;
 }
