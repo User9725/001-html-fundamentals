@@ -1,3 +1,11 @@
+body{
+font-style: 16px;
+line-height: 1.5;
+  font-family: "roboto", "Arial", sans-serif;
+  letter-spacing: 0.5px;
+}
+
+
 header {
   background-color: white;
   font-weight: 500;
@@ -8,7 +16,10 @@ header {
   text-decoration: none;
 }
 .sitenav-list{
-list-style: none;
+ font-family: "Roboto", sans-serif;
+  font-style: 13px;
+  letter-spacing: 1px;
+ text-decoration: none;
 }
 .saytning-linki{
   font-weight: 500;
@@ -23,7 +34,6 @@ list-style: none;
  font-weight: bold;
  font-size: 13px;
  line-height: 15px;
- letter-spacing: 0,5px;
   text-decoration: none;
   background-color: #ff7500;
   color: white;
@@ -47,13 +57,14 @@ background-color: #ff7500;
 .hero-heading{
 font-size: 40px;
 line-height: 1.2;
-letter-spacing: 0.5;
+font-family: "Roboto condensed", "Roboto", "Arial", "sans-serif";
+
 }
 
 .hero-text{
 font-size: 16px;
 line-height: 150%;
-letter-spacing: 0.5px;
+
 }
 
 .hero-image{
@@ -65,7 +76,8 @@ letter-spacing: 0.5px;
   width: 440px;
   font-size: 72px;
   line-height: 120%;
-  letter-spacing: 0.5px;
+  font-family: "Roboto condensed", "Roboto", "Arial", "sans-serif";
+
   color: #000000;
 
 }
@@ -81,14 +93,13 @@ letter-spacing: 0.5px;
 .feature-title{
 font-size: 24px;
   line-height: 120%;
-  letter-spacing: 0.5px;
-  color: #000000;
+  font-family: "Roboto condensed", "Roboto", "Arial", "sans-serif";
+    color: #000000;
 }
 .feature-text{
   font-size: 16px;
   line-height: 150%;
-  letter-spacing: 0.5px;
-  color: #000000;
+    color: #000000;
 }
 
 .Promo{
@@ -105,12 +116,10 @@ font-size: 24px;
 .Promo-title{
 font-style: 40px;
 line-height: 48px;
+font-family: "Roboto condensed", "Roboto", "Arial", "sans-serif";
 }
 
-.Promo-text{
-font-style: 16px;
-line-height: 1.5;
-}
+
 
 .promo-highlight{
 color: #ff7500;
@@ -134,14 +143,9 @@ background-color: rgba(37, 36, 32, 0.5);
 }
 .site-footer-link-list{
 width: 224px;
+line-height: 19px;
 }
 .site-footer-link-list a {
-  font-size: 16px;
-  line-height: 19px;
   color: #252420;
   text-decoration: none;
-}
-
-body{
-  background-color: white;
 }

@@ -1,24 +1,11 @@
-h1
-{
-  font-size: 40px;
-  font-weight: bold;
-  font-style: italic;
-  text-decoration: double;
-  text-transform: uppercase;
-  line-height: 1.1;
+.Head-sayt{
+font-family: "Manufacturing Consent", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
 
-.test
-{
-  background-color: firebrick;
-  color: #fff;
-line-height: 1.5;
-letter-spacing: 1px;
-word-spacing: 2px;
-text-indent: 20px;
-
-}
-.something{
-  background-color: aquamarine;
-  color: #eee;
+p{
+font-family: "Gloria Hallelujah", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
